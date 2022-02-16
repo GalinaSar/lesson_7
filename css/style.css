@@ -1,0 +1,119 @@
+@import "null.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    background-color: rgba(88, 231, 231, 0.2);
+
+}
+header{
+    font-size: 45px;
+    color: aliceblue;
+    background-color: blue;
+    text-shadow: 10px 5px 3px rgb(190, 241, 6);
+    padding: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: 'Kelly Slab', cursive;
+    text-align: right;
+    font-size: 35px;
+    color: rgb(6, 14, 82);
+    background: rgb(62,161,52);
+    background: radial-gradient(circle, rgba(62,161,52,0.22172619047619047) 19%, rgba(230,140,212,1) 73%);
+    border: 5px solid rgb(241, 114, 114);
+    border-radius: 45px;
+    text-shadow: -3px -3px 5px rgb(22, 6, 240);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.text_1 {
+    font-family: 'Comforter', cursive;
+    font-weight: 600;
+    color: rgb(90, 90, 81);
+    background: url("../img/photo_1.jpg") 0 0 / 100% 100% no-repeat fixed;
+    min-height: 300px;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.text_2 {
+    font-family: 'Reggae One', cursive;
+    color: rgb(62, 104, 182);
+    background-color: rgb(139, 233, 127);
+    margin-bottom: 30px;
+    text-decoration: line-through;
+    outline: red dotted 5px;
+}
+.photo_1 {
+    margin-bottom: 30px;
+    background: rgb(233, 201, 113) url("../img/2.jpg") center no-repeat;
+    padding: 400px 0;
+}
+.text_3 {
+    font-family: 'Press Start 2P', cursive;
+    color: darkolivegreen;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 0 30px auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 36%, rgba(148,187,233,1) 66%);
+}
+.photo_2{
+    max-height: 300px;
+    background: rgb(187, 226, 114) url("../img/ages2.jpg") 0 0 / 300px repeat-x local;
+    overflow: scroll;
+    margin-bottom: 30px;
+    border: 5px double red;
+    border-radius: 50px 0 0 0;
+}
+
+.text_4 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(62, 241, 26);
+    background-color: #50327c;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d6c8ec' fill-opacity='0.5' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+    margin-bottom: 30px;
+}
+.text_5 {
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    background: url('../img/dsc_0086.jpg')  100% 0 / 300px 200px no-repeat, url('../img/dsc_0003.jpg') 0 0 / 300px 200px no-repeat, url('../img/dsc_0025.jpg') top center / 300px 200px no-repeat, url('../img/море.jpg') 50%/cover no-repeat;
+    margin-bottom: 30px;
+    padding-top: 210px;
+}
+.text_6 {
+    font-family: 'Lobster', cursive;
+    color: blue;
+    text-align: justify;
+    text-shadow: 5px 5px 2px red;
+    outline: 10px double rgb(101, 167, 26);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+footer {
+    font-family: 'Pacifico', cursive;
+    color: rgb(228, 33, 49);
+    text-align: right;
+    padding-bottom: 25px;
+}
